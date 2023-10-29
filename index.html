@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+    <html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+
+    </head>
+    <body>
+        <label>
+            <input type="text" id="wyszukiwarka" placeholder="Proszę wpisz czego poszukujesz..." onkeyup="to_do.searchTask()">
+        </label>
+        <ol id="list">
+
+        </ol>
+        <form onsubmit="return to_do.addTask()">
+            <button id="dodaj">Dodaj obowiązek</button>
+            <label><input type="text" id="nazwa_obowiazek" placeholder="Wpisz nazwę obowiązku, który chcesz dodać..."></label>
+            <label><input type="date" id="data_obowiazek"></label>
+        </form>
+
+        <script src="script.js"></script>
+    </body>
+</html>
