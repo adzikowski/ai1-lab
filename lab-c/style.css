@@ -1,0 +1,48 @@
+#map {
+    width: 48vw;
+    height: 25vw;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+#rasterMap {
+    width: 48vw;
+    height: 25vw;
+    border: 1px solid black;
+    /*display: none; !* Ukryj oryginalny canvas *!*/
+}
+
+.container {
+    margin-top: 10%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(63, 129, 220);
+    border-radius: 25px;
+    justify-content: space-evenly;
+}
+
+#blocksContainer {
+    display: inline-block;
+    justify-content: space-evenly;
+}
+
+canvas.block {
+    cursor: grab;
+}
+
+#puzzleTable {
+    width: 48vw;
+    height: 25vw;
+    border-collapse: collapse;
+    display: inline-block;
+    margin: none;
+}
+
+#puzzleTable td {
+    border: 1px solid black;
+    width: 12vw;
+    height: 6.25vw;
+    position: relative;
+    padding: 0;
+}
