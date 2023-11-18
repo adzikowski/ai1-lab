@@ -1,0 +1,24 @@
+#weather-search-params{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background: black;
+}
+.weather-block{
+    border: 1px solid white;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1vw;
+}
